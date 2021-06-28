@@ -1,0 +1,41 @@
+body {
+    background-color: #E5E5E5;
+    /*font-family: "Roboto Condensed", sans-serif;*/
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+ }
+
+ .container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 50px;
+    
+ }
+
+ .calculation {
+   display:flex;
+   /*border:1px solid black;*/
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   box-sizing: border-box;
+  height: 35px;
+  align-items: stretch;
+  
+}
+
+label {
+   margin-top: 50px;
+}
+
+input, select, button {
+   font-size: 20px;
+}
+
+
